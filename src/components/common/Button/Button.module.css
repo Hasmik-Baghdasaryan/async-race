@@ -1,0 +1,67 @@
+.button {
+  min-width: 5rem;
+  height: 1.8rem;
+  background-color: #31c111;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  border: 1px solid #31c111;
+  background-color: white;
+  color: #31c111;
+}
+.button:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.createCarsBtn {
+  min-width: 9rem;
+}
+
+.carTrackBtn {
+  min-width: 3rem;
+  height: 1.3rem;
+  font-size: 0.6rem;
+}
+
+.stopBtn,
+.removeBtn {
+  min-width: 3rem;
+  height: 1.3rem;
+  font-size: 0.6rem;
+  background-color: darkred;
+}
+
+.stopBtn:hover,
+.removeBtn:hover {
+  border: 1px solid darkred;
+  background-color: white;
+  color: darkred;
+}
+
+.paginationBtn {
+  background-color: white;
+  border: 1px solid #31c111;
+  color: #31c111;
+}
+
+.paginationBtn:hover {
+  background-color: #31c111;
+  color: white;
+}
+
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.loaderContainer span {
+  font-size: 0.85rem;
+}

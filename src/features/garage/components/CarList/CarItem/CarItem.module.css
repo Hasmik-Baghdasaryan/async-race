@@ -1,0 +1,18 @@
+.carItemWrapper {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.title {
+  padding: 0.2rem;
+  max-width: 10rem;
+  text-align: center;
+}
+
+.selected {
+  background-color: #f0f0f0;
+  border-left: 3px solid #9ca3af;
+}

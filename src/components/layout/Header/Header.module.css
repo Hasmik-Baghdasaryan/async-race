@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 4rem;
+}
+
+a {
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.header a:global(.active) {
+  color: #31c111;
+  font-weight: bold;
+}
+
+.disabled {
+  pointerevents: none;
+  opacity: 0.5;
+}

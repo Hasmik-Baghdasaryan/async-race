@@ -1,0 +1,28 @@
+.carsWrapper {
+  margin-top: 1rem;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.carsList {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.total {
+  color: #31c111;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

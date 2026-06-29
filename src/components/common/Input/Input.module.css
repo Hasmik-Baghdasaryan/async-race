@@ -1,0 +1,11 @@
+.input {
+  height: 2rem;
+  min-height: 2rem;
+  border-radius: 0.8rem;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.5rem;
+}
+.input:focus {
+  border: 1px solid #31c111;
+  outline: none;
+}

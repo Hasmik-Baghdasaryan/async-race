@@ -1,0 +1,52 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+
+.container {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.4);
+  padding: 3.2rem 4rem;
+  transition: all 0.5s;
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 5px;
+  transform: translateX(0.8rem);
+  transition: all 0.2s;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.9rem;
+  cursor: pointer;
+}
+
+.button :hover {
+  background-color: #f3f4f6;
+}
+
+.button svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #6b7280;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5px;
+}

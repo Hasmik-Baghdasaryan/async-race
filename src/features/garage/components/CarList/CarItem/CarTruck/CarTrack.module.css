@@ -1,0 +1,54 @@
+.track {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: var(--color-background-secondary);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.startLine {
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  border-left: 4px solid #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finishLine {
+  position: absolute;
+  right: 4rem;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  border-right: 4px solid #ef4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lineText {
+  writing-mode: vertical-rl;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.startText {
+  color: #22c55e;
+}
+
+.finishText {
+  color: #ef4444;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 200px;
+}
+
+.colorPicker {
+  width: 2rem;
+  height: 1.5rem;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.carName {
+  height: 2rem;
+  min-height: 2rem;
+  border-radius: 0.8rem;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.5rem;
+}
+.carName:focus {
+  border: 1px solid #31c111;
+  outline: none;
+}
+
+.error {
+  font-size: 1rem;
+  color: darkred;
+}
