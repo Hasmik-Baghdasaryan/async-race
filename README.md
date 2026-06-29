@@ -4,7 +4,7 @@ A single-page application for managing a car garage and running async races. Bui
 
 ## 🚀 Live Demo
 
-> _Coming soon_
+https://async-car-race.vercel.app/
 
 ---
 
